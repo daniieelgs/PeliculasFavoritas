@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PelisFavorites</string>
+
+    <string name="score_value" translatable="false">/10</string>
+    <string name="reload">reload</string>
+    <string name="number_films">Total: %s</string>
+    <string name="overview">Overview</string>
+    <string name="release_date">Release date:</string>
+    <string name="original_languaje">Original languaje:</string>
+    <string name="adult">Adult:</string>
+    <string name="popularity">Popularity:</string>
+    <string name="favorite">Favorite</string>
+    <string name="image_post_film">Image Post Film</string>
+    <string name="new_movie">new movie</string>
+    <string name="search">Search</string>
+    <string name="score">Score</string>
+    <string name="title">Title</string>
+    <string name="order_by">order by</string>
+    <string name="order">order</string>
+    <string name="weather">weather</string>
+    <string name="tempSymbol">º</string>
+    <string name="feels_like_temp">Feels like: %s</string>
+    <string name="uv_index">UV Index</string>
+    <string name="wind">Wind</string>
+    <string name="humidity">Humidity</string>
+    <string name="vel"> km/h</string>
+    <string name="clouds">Clouds</string>
+    <string name="wind_direction">Wind Dir.</string>
+    <string name="rainfall">Rainfall</string>
+    <string name="last_update">Last update: %sh</string>
+    <string name="humidityMesure"> mm</string>
+
+    <string name="timeOutError">Time Out. Could not connect with the server. Try again later</string>
+    <string name="internetConnectionError">Unable to connect with host. Check your internet connection and try again</string>
+    <string name="unknownError">UNKNOWN ERROR: %s</string>
+    <string name="error404">Not found</string>
+    <string name="movieError404">You must to add film to favorite</string>
+    <string name="error">ERROR</string>
+</resources>

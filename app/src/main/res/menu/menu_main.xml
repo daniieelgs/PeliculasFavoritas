@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miReload"
+        android:enabled="false"
+        android:icon="@drawable/ic_baseline_reload_32"
+        android:iconTint="@color/reload_button"
+        android:title="@string/reload"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miWeather"
+        android:icon="@drawable/weather_icon_32"
+        android:iconTint="@color/textColor"
+        android:title="@string/weather"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miNewMovie"
+        android:icon="@drawable/ic_baseline_add_circle_32"
+        android:iconTint="@color/textColor"
+        android:title="@string/new_movie"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miOrder"
+        android:icon="@drawable/ic_baseline_order_asc_24"
+        android:iconTint="@color/textColor"
+        android:title="@string/order"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miOrderBy"
+        android:icon="@drawable/ic_baseline_reorder_32"
+        android:iconTint="@color/textColor"
+        android:title="@string/order_by"
+        app:showAsAction="always">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/miOrderTitle"
+                    android:checked="true"
+                    android:title="@string/title" />
+                <item
+                    android:id="@+id/miOrderScore"
+                    android:title="@string/score" />
+            </group>
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="sotuhBar" parent="Widget.MaterialComponents.TextView">
+
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <style name="titleInfoFilm" parent="Widget.MaterialComponents.TextView">
+
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="infoFilm" parent="Widget.MaterialComponents.TextView">
+
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+
+        <item name="android:textSize">18sp</item>
+
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
+    <style name="layoutInfoWeather">
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:paddingVertical">10dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="containerLayoutInfoWeather">
+
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+
+</resources>
